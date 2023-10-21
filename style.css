@@ -4,15 +4,21 @@
     box-sizing: border-box;
     user-select: none;
 }
+
+@font-face {
+    font-family: Reforma Grotesk Demi;
+    src: url('/fonts/ReformaGroteskDemi.woff');
+}
 .conteiner{
-    width: 100%;
-    height: 0 auto;
-    
+    width: 1440px;
+    margin: 0 auto;
+    /* justify-content: center; */
+    text-align: center;
 }
 .heder_block{
     background-color:#FCE900;
-    width: 1200px;
-    height: 800px;
+    width: 0 auto;
+    /* height: 800px; */
     padding-top: 80px;
     
 }
@@ -23,7 +29,7 @@
 
 }
 .navbar{
-    width: 1200px;
+    /* width: 0 auto; */
     display: flex;
     text-align: center;
     justify-content: center;
@@ -63,7 +69,7 @@
     margin-top: 3%;
     gap: 1.5em;
 }
-.h_text_img1{
+/* .h_text_img1{
     width: 30%;
     height: 30%;
 }
@@ -71,6 +77,24 @@
     width: 25%;
     height: 30%;
     margin-top: 2%;
+} */
+.h_text_1{
+    color: #FCE900;
+    background-color: black;
+    transform: rotate(-3deg);
+    color: var(--ui-yellow, #FCE900);
+text-align: center;
+/* reforma/header_102 */
+font-family: Reforma Grotesk Demi;
+font-size: 102px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 8.16px;
+}
+.h_text_2{
+    background-color: transparent;
+    color: black;
 }
 .heder_h3{
     text-align: center;
@@ -99,9 +123,7 @@
     border: none;
     margin-top: -3%;
 }
-.about_geeks{
-width: 1200px;
-}
+
 .geeks_founders{
     display: flex;
     flex-direction: column;
@@ -132,9 +154,11 @@ width: 1200px;
   width: 100%;
   margin-top: 10%;
 }
+.geeks_in_number_adaptiv{
+    display: none;
+}
 .why_geeks{
     margin-top: 2%;
-    width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,7 +169,6 @@ width: 1200px;
     width: 400px;
     height: 60px;
     text-align: center;
-    /* margin-left: 35%; */
     transform: rotate(-3deg);
 }
 .why_geeks_mindows{
@@ -156,7 +179,7 @@ width: 1200px;
     gap: 5px;
     text-align: center;
     justify-content: center;
-    width: 1200px;
+    /* width: 1200px; */
 }
 .why_geeks_mindows img{
   width: 30%;
@@ -167,7 +190,7 @@ width: 1200px;
 /* ученики гикс  css*/
 
 .students_geeks{
-    width: 1200px;
+
     margin-top: 2%;
     display: flex;
     flex-direction: column;
@@ -180,7 +203,6 @@ width: 1200px;
     width: 220px;
     height: 50px;
     text-align: center;
-    /* margin-left: 40%; */
     transform: rotate(-3deg);
 }
 
@@ -200,7 +222,6 @@ width: 1200px;
 /* где работают выпускники гикс */
 
 .students_copmany{
-    width: 1200px;
     margin-top: 3%;
     display: flex;
     flex-direction: column;
@@ -212,7 +233,6 @@ width: 1200px;
     width: 400px;
     height: 50px;
     text-align: center;
-    /* margin-left: 35%; */
     transform: rotate(-3deg); 
 }
 .compani_logo{
@@ -230,7 +250,6 @@ width: 1200px;
 
 /* курсы гикс */
 .geeks_course{
-    width: 1200px;
     background-color: #FCE900;
     display: flex;
     flex-direction: column;
@@ -239,13 +258,13 @@ width: 1200px;
     gap: 2em;
   
 }
-.geeks_course p {
+.geeks_cours_text {
     color: #FCE900;
     background-color: black;
     width: 150px;
     height: 0 auto;
     text-align: center;
-    /* margin-left: 35%; */
+  
     transform: rotate(-3deg); 
     margin-top: 3%;
     font-size: 1.5em;
@@ -264,7 +283,7 @@ width: 1200px;
     flex-direction: column;
     background-color: black;
     width: 27%;
-    height: 400px;
+    height: 450px;
     color: white;
     margin: 0.5em;
     align-items: center;
@@ -272,7 +291,16 @@ width: 1200px;
     justify-content: center;
     gap: 3%;
 }
-
-.course img{
-    width: 40%;
+.cours_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Onest;
+    width: 230px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-weight: 700;        
 }

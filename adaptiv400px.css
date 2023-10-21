@@ -1,0 +1,120 @@
+@media(max-width:400px){ 
+    .conteiner{
+        width: 400px;
+    }  
+    .geeks_cours_text{
+     font-size: 24px;
+    }
+    .h_text{
+        display: flex;
+        flex-direction: column;
+    }
+    .heder{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .memoji_btn img{
+        width: 60%;
+    }
+    .h_text_1{
+        width: 284px;
+        font-size: 54px;
+        letter-spacing: 0;
+        font-family:Reforma Grotesk Demi;
+    }
+    .h_text img{
+        width: 100%;
+        /* height: 9; */
+    }
+    .navbar{
+        display: none;
+    }
+    .burger_navbar{
+        /* background-color: #FCE900; */
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 80px;
+        justify-content: space-around;
+       
+        position:fixed;
+        backdrop-filter: blur(7px) ;
+        border-bottom: 1px solid black;
+        padding-top: 13px;
+    }
+    .burger_navbar img{
+        width: 10%;
+    }
+    .why_geeks_mindows{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+    .why_geeks_mindows img{
+        width: 100%;
+    }
+    .compani_logo img {
+        width: 34%;
+    }
+    .geeks_in_number{
+display: none;
+    }
+    .geeks_in_number_adaptiv{
+      display: block;  
+    }
+    .geeks_in_number_adaptiv img{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .block_course{
+        flex-direction: column;
+        width: 100%;
+    }
+    .course{
+        width: 361px;
+        height: 542px;
+        gap: 10px;
+    }
+    .course p{
+        color: var(--ui-white, #FEFEFE);
+text-align: center;
+
+/* onest/footer_24 */
+font-family: Onest;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        
+    }
+    .cours_button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-family: Onest;
+        width: 230px;
+        height: 70px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        font-weight: 700;        
+    }
+    .cours img{
+        width: 90%;
+    }
+    .cours_top_bar{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10%;
+    }
+    .cours_top_bar img{
+        width: 80%;
+    }
+}
