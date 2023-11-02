@@ -1,0 +1,208 @@
+@font-face {
+    font-family: Reforma Grotesk Demi;
+    src: url(./fonts/ReformaGroteskDemi\ \(1\).woff);
+}
+.accordion{
+   margin-top: 50px;
+}
+.accordion h2{
+    margin-left: 542px;
+    width: 374px;
+    height: 63px;
+    margin-bottom: 35px;
+    display: flex;
+    transform: rotate(-3deg);
+    padding: 5px 10px;
+    align-items: flex-start;
+    color: var(--ui-yellow, #FCE900);
+    background-color: #000;
+    text-align: center;
+    font-family: Reforma Grotesk Demi;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    margin: 5px;
+    overflow: hidden;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    border-left: 0;
+        border-right: 0;
+}
+
+.accordion-header {
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: var(--ui-black, #000);
+    text-align: center;
+    /* onest/sub_24 */
+    font-family: Onest;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.accordion-content {
+    /* padding: 10px; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out;
+    /* Анимация максимальной высоты */
+}
+
+.svg_accordion {
+    /* transform: rotate(45deg); */
+    transition: transform 0.6s ease;
+}
+
+@media(max-width:400px){
+    .accordion {
+        display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+    }
+    .accordion h2{
+        margin-left: 0;
+        width: 222px;
+        height: 40px;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .accordion-header{
+        display: flex;
+        align-items: center;
+        width: 343px;
+        height: 82px;
+        text-align: left;
+        
+            padding: 10px 0px;
+            font-family: Onest;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            align-items: center;
+            gap: 8px;
+    }
+   .accordion-item{
+    border-left: 0;
+    border-right: 0;
+    width: 343px;
+   }
+
+}
+
+.regis{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 36px;
+}
+
+.regis p{
+    width: 410px;
+    height: 46px;
+    margin-top: -15px;
+    color: var(--ui-black, #000);
+        text-align: center;
+    
+        /* onest/window_18 */
+        font-family: Onest;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+
+.regis_block{
+    width: 603px;
+    height: 63px;
+    display: flex;
+        transform: rotate(-3deg);
+        padding: 5px 10px;
+        
+        align-items: flex-start;
+        
+        color: var(--ui-yellow, #FCE900);
+        background-color: #000;
+            text-align: center;
+        
+            /* reforma/button_42 */
+            font-family: Reforma Grotesk Demi;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+}
+.regis_block2{
+    display: flex;
+    gap: 40px;
+}
+
+.regis_block2 input{
+   background-color: #000;
+ 
+        width: 414px;
+        height: 71px;
+        padding: 20px;
+        align-items: center;
+        gap: 2px;
+        flex-shrink: 0;
+        color: var(--ui-grey-grey-1, #57585A);
+            text-align: justify;
+        
+            /* onest/sub_24 */
+            font-family: Onest;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+}
+.regis_block2 button{
+
+    width: 413px;height: 71px;
+    background-color: #FCE900;
+    border: none;
+    color: var(--ui-black, #000);
+    
+        /* onest/sub_24 */
+        font-family: Onest;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+@media(max-width:400px){
+    .regis_block{
+        width: 355px;height: 40px;
+        font-size: 24px;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .regis_block2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .regis_block2 input button{
+        width: 360px;height: 60px;
+    }
+        .regis p{
+            font-size: 14px;
+        }
+}

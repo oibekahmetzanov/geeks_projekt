@@ -1,4 +1,50 @@
 /* Geeks teachers slider styles */ 
+.geeks-main-section-six h2{
+  
+      
+        width: 366px;
+        height: 81px;
+          background-color: black;
+            color: #fce900;
+            text-align: center;
+            font-family: Reforma Grotesk Demi;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            transform: rotate(-3deg);
+}
+
+.geeks-main-section-six p{
+  
+    color: var(--ui-black, #000);
+      text-align: center;
+    
+      /* onest/sub_24 */
+      font-family: Onest;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+}
+
+@media(max-width:400px){
+  .geeks-main-section-six p{
+    width: 323px;
+  
+    height: 100px;
+ 
+      font-size: 16px;
+      font-style: normal;
+     
+  }
+    .geeks-main-section-six h2{
+      width: 201px;
+      height: 40px;
+      font-size: 24px;
+    }
+}
+
 .slider-container { 
     margin:0 auto; 
     overflow:hidden; 
@@ -33,4 +79,80 @@
     align-items:center; 
     gap:30px; 
   }
+
+
+  /* слайдер номер 2  */
+
+.slider-container_2{
+  display: flex;
+}
+.probation{
+background-color: white;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.probation h2{
+  width: 393px;
+    height: 63px;
+    background-color: black;
+    color: #fce900;
+    text-align: center;
+    font-family: Reforma Grotesk Demi;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transform: rotate(-3deg);
+}
+.probation p{
+  width: 953px;
+  height: 155px;
+    font-family: Onest;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0em;
+      text-align: center;
+}
+@media(max-width:400px){
+  .probation p{
+   width: 361px;height: 180px;
+   font-size: 16px;
+  line-height: normal;
+
+  }
+  .probation h2{
+    width: 233px;
+    height: 40px;
+    font-size: 24px;
+  }
+}
+.button_slider{
+  width: 70px;
+    height: 730px;
+    flex-shrink: 0;
+    margin:  0px -70px;
+background: rgba(0, 0, 0, 0.60);
+backdrop-filter: blur(5px);
+border: none;
+}
+
+
+ .slider_2 {
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+   gap: 10px;
+ }
+.slider_2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
   /* Geeks teachers slider styles */

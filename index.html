@@ -6,10 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./slider.css">
+    <link rel="stylesheet" href="./acardion.css">
     <link rel="stylesheet" href="./adaptiv400px.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Onest:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./modal_windows/modal.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
@@ -22,23 +24,49 @@
                 <li><b>О нас</b></li>
                 <li><b>Наши курсы</b></li>
                 <li><b>стажировка</b></li>
-                <li><b>FAQ</b></li>
+                <li><a href="#go-faq"><b>FAQ</b></a></li>
             </ul>
             <div class="call">
                 
-               <div> <p>+996 (995)-80-40-80</p></div>
-               <div>СВЯЗАТЬСЯ</div>
-               <div>РУС</div>
+              <p>+996 (995)-80-40-80</p>
+               <h3>СВЯЗАТЬСЯ</h3>
+               <h3>  
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clip-path="url(#clip0_2129_900)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM11 21.0319V16.8491C10.1336 16.9345 9.28167 17.1304 8.46507 17.4321C9.09114 18.7616 9.94119 19.9704 10.9756 21.0069C10.9839 21.0151 10.992 21.0235 11 21.0319ZM18.2301 16.744C18.907 17.1552 19.5415 17.6323 20.1242 18.1684C21.2372 16.7048 21.9637 14.9313 22.1516 13H18.9666C18.8814 14.2756 18.6335 15.5337 18.2301 16.744ZM16.185 15.7534C15.1605 15.3722 14.0889 15.1328 13 15.0417V13H16.7107C16.6371 13.9353 16.4606 14.8587 16.185 15.7534ZM16.7107 11H13V8.95826C14.0889 8.86721 15.1605 8.62783 16.185 8.24659C16.4607 9.14168 16.6372 10.0651 16.7107 11ZM18.9666 11H22.1516C21.9637 9.06875 21.2372 7.29525 20.1242 5.83162C19.5415 6.36765 18.907 6.84482 18.2301 7.25604C18.6337 8.46685 18.8814 9.72501 18.9666 11ZM15.5349 6.56788C14.9089 5.23844 14.0588 4.0296 13.0244 2.99314C13.0161 2.98487 13.008 2.97651 13 2.96806V7.15086C13.866 7.06555 14.718 6.86971 15.5349 6.56788ZM15.5565 2.43715C16.8105 2.90371 17.9479 3.60986 18.9131 4.49996C18.4885 4.89131 18.0315 5.24585 17.5471 5.55978C17.0137 4.43773 16.3444 3.38931 15.5565 2.43715ZM15.5349 17.4321C15.5228 17.4578 15.5106 17.4835 15.4984 17.5091C14.8706 18.8194 14.0248 20.0099 13 21.0312V16.8491C13.866 16.9344 14.718 17.1303 15.5349 17.4321ZM15.5565 21.5628C16.3344 20.6227 16.9971 19.5883 17.5275 18.4813C17.534 18.4676 17.5406 18.4539 17.5471 18.4402C18.0315 18.7541 18.4885 19.1087 18.9131 19.5C17.9479 20.3901 16.8105 21.0963 15.5565 21.5628ZM11 8.95826V11H7.28927C7.36286 10.0647 7.53938 9.14134 7.81499 8.24659C8.83904 8.62765 9.91064 8.86717 11 8.95826ZM5.76993 7.25604C5.36646 8.46632 5.11859 9.72445 5.03337 11H1.8484C2.03632 9.06875 2.76283 7.29525 3.87581 5.83162C4.45832 6.36747 5.09275 6.84468 5.76993 7.25604ZM5.03337 13H1.8484C2.03632 14.9313 2.76283 16.7048 3.87581 18.1684C4.45832 17.6325 5.09275 17.1553 5.76993 16.744C5.36628 15.5332 5.11856 14.275 5.03337 13ZM11 13H7.28928C7.36283 13.9349 7.53927 14.8583 7.81499 15.7534C8.83904 15.3723 9.91064 15.1328 11 15.0417V13ZM11 7.15086V2.9688C9.9752 3.99006 9.12944 5.18058 8.50164 6.49091L8.46507 6.56788C9.28167 6.86958 10.1336 7.06551 11 7.15086ZM8.44354 21.5628C7.18954 21.0963 6.05212 20.3901 5.08692 19.5C5.51137 19.1088 5.96834 18.7542 6.45291 18.4402C6.98633 19.5623 7.65564 20.6107 8.44354 21.5628ZM8.44353 2.43715C7.66559 3.37729 7.00293 4.41165 6.47251 5.51871L6.45291 5.55978C5.96835 5.24576 5.51138 4.8912 5.08693 4.49996C6.05212 3.60986 7.18954 2.90371 8.44353 2.43715Z"
+                      fill="#FCE900" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2129_900">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                РУС</h3>
                 
             </div>
         </div>
 
-        <!-- <div class="burger_navbar">
+        <div class="burger_navbar">
            <img src="./imegis/Logo.png">
-            <img src="./imegis/Menu.png">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+              <rect x="5" y="10" width="34" height="5" fill="black" />
+              <rect x="5" y="20" width="34" height="5" fill="black" />
+              <rect x="5" y="30" width="34" height="5" fill="black" />
+            </svg>
            
-        </div> -->
-        
+        </div>
+
+
+
+
+       
+
+
         <div class="heder_block">
             <div class="heder">
                
@@ -59,8 +87,12 @@
         <div class="about_geeks">
             <div class="geeks_founders">
                 <H2>О нас</H2>
-                <img src="./imegis/founders.png">
-                <p><b>IT-Курсы GEEKS были основаны в 2018-ом году в Бишкеке с целью дать возможность каждому<br> человеку, даже без опыта в технологиях, гарантированно освоить IT-профессию.</b></p>
+
+                <img src="./imegis/founders.png" class="geeks_founders_img">
+                <img src="./imegis/founders (1).png" class="geeks_founders_adaptiv_img">
+
+
+                <p><b>IT-Курсы GEEKS были основаны в 2018-ом году в Бишкеке с целью дать возможность каждому человеку, даже без опыта в технологиях, гарантированно освоить IT-профессию.</b></p>
             </div>
             <div class="geeks_in_number">
                 <img src="./imegis/Geek_in_numbers.png">
@@ -111,70 +143,101 @@
                   <img src="./imegis/Frame.png">
                   <h4>ANDROID-<br> РАЗРАБОТЧИК</h4>  
                     <p>7 месяцев <br> 8000сом/месяц</p>  
-                  <button class="cours_button">подробнее<svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
+                  <button class="cours_button" id="openModalButton1">подробнее
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
                     <rect x="27.1299" y="13.6543" width="4" height="22.8109" transform="rotate(45 27.1299 13.6543)" fill="#FEFEFE"/>
                     <rect x="28.2842" y="11.5" width="4" height="20" fill="#FEFEFE"/>
                     <rect x="12.2842" y="15.5" width="4" height="20" transform="rotate(-90 12.2842 15.5)" fill="#FEFEFE"/>
-                  </svg></button>
+                  </svg>
+                
+                </button>
                 </div>
                 <div class="course android">
                   <div class="cours_top_bar"> <img src="./imegis/top_bar.png" ></div>
                   <img src="./imegis/Frame.png">
                   <h4>ANDROID-<br> РАЗРАБОТЧИК</h4>  
                     <p>7 месяцев <br> 8000сом/месяц</p>  
-                  <button class="cours_button">подробнее<svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
+                  <button class="cours_button" id="openModalButton2">подробнее
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
                     <rect x="27.1299" y="13.6543" width="4" height="22.8109" transform="rotate(45 27.1299 13.6543)" fill="#FEFEFE"/>
                     <rect x="28.2842" y="11.5" width="4" height="20" fill="#FEFEFE"/>
                     <rect x="12.2842" y="15.5" width="4" height="20" transform="rotate(-90 12.2842 15.5)" fill="#FEFEFE"/>
-                  </svg></button>
+                  </svg>
+                
+                </button>
                 </div>
                 <div class="course android">
                   <div class="cours_top_bar"> <img src="./imegis/top_bar.png" ></div>
                   <img src="./imegis/Frame.png">
                   <h4>ANDROID-<br> РАЗРАБОТЧИК</h4>  
                     <p>7 месяцев <br> 8000сом/месяц</p>  
-                  <button class="cours_button">подробнее<svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
+                  <button class="cours_button" id="openModalButton3">подробнее
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
                     <rect x="27.1299" y="13.6543" width="4" height="22.8109" transform="rotate(45 27.1299 13.6543)" fill="#FEFEFE"/>
                     <rect x="28.2842" y="11.5" width="4" height="20" fill="#FEFEFE"/>
                     <rect x="12.2842" y="15.5" width="4" height="20" transform="rotate(-90 12.2842 15.5)" fill="#FEFEFE"/>
-                  </svg></button>
+                  </svg>
+                
+                </button>
                 </div>
                 <div class="course android">
                   <div class="cours_top_bar"> <img src="./imegis/top_bar.png" ></div>
                   <img src="./imegis/Frame.png">
                   <h4>ANDROID-<br> РАЗРАБОТЧИК</h4>  
                     <p>7 месяцев <br> 8000сом/месяц</p>  
-                  <button class="cours_button">подробнее<svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
+                  <button class="cours_button" id="openModalButton4">
+                    
+                    подробнее<svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
                     <rect x="27.1299" y="13.6543" width="4" height="22.8109" transform="rotate(45 27.1299 13.6543)" fill="#FEFEFE"/>
                     <rect x="28.2842" y="11.5" width="4" height="20" fill="#FEFEFE"/>
                     <rect x="12.2842" y="15.5" width="4" height="20" transform="rotate(-90 12.2842 15.5)" fill="#FEFEFE"/>
-                  </svg></button>
+                  </svg>
+                
+                </button>
+                </div>
+                <div class="course android">
+
+                  <div class="cours_top_bar"> <img src="./imegis/top_bar.png" ></div>
+                  <img src="./imegis/Frame.png">
+                  <h4>ANDROID-<br> РАЗРАБОТЧИК</h4>  
+                    <p>7 месяцев <br> 8000сом/месяц</p>  
+                  <button class="cours_button" id="openModalButton5">подробнее
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
+                    <rect x="27.1299" y="13.6543" width="4" height="22.8109" transform="rotate(45 27.1299 13.6543)" fill="#FEFEFE"/>
+                    <rect x="28.2842" y="11.5" width="4" height="20" fill="#FEFEFE"/>
+                    <rect x="12.2842" y="15.5" width="4" height="20" transform="rotate(-90 12.2842 15.5)" fill="#FEFEFE"/>
+                  </svg>
+                
+                </button>
                 </div>
                 <div class="course android">
                   <div class="cours_top_bar"> <img src="./imegis/top_bar.png" ></div>
                   <img src="./imegis/Frame.png">
                   <h4>ANDROID-<br> РАЗРАБОТЧИК</h4>  
                     <p>7 месяцев <br> 8000сом/месяц</p>  
-                  <button class="cours_button">подробнее<svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
+                  <button class="cours_button" id="openModalButton6">подробнее
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
                     <rect x="27.1299" y="13.6543" width="4" height="22.8109" transform="rotate(45 27.1299 13.6543)" fill="#FEFEFE"/>
                     <rect x="28.2842" y="11.5" width="4" height="20" fill="#FEFEFE"/>
                     <rect x="12.2842" y="15.5" width="4" height="20" transform="rotate(-90 12.2842 15.5)" fill="#FEFEFE"/>
-                  </svg></button>
-                </div>
-                <div class="course android">
-                  <div class="cours_top_bar"> <img src="./imegis/top_bar.png" ></div>
-                  <img src="./imegis/Frame.png">
-                  <h4>ANDROID-<br> РАЗРАБОТЧИК</h4>  
-                    <p>7 месяцев <br> 8000сом/месяц</p>  
-                  <button class="cours_button">подробнее<svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
-                    <rect x="27.1299" y="13.6543" width="4" height="22.8109" transform="rotate(45 27.1299 13.6543)" fill="#FEFEFE"/>
-                    <rect x="28.2842" y="11.5" width="4" height="20" fill="#FEFEFE"/>
-                    <rect x="12.2842" y="15.5" width="4" height="20" transform="rotate(-90 12.2842 15.5)" fill="#FEFEFE"/>
-                  </svg></button>
+                  </svg>
+                
+                </button>
                 </div>
                 </div>
             </div>
+            
+            
+
             <div class="geeks-main-section-six">
+              <h2 >преподаватели практики</h2>
+              <p>Наши преподаватели - лучшие практикующие специалисты рынка.Они делятся проверенными знаниями для вашего будущего
+              трудоустройства в сфере IT.</p>
             <div class="slider-container"> 
               <div class="slider"> 
                 <img src="/imegis/teacher (6).png" alt="" /> 
@@ -194,8 +257,768 @@
               </div> 
             </div>
           </div>
+
+          <div class="probation">
+            <h2>гарантированная стажировка</h2>
+            <p>На сегодняшний день GeekStudio состоит из более 30 специалистов разных областей. Сюда входят не только программисты, но
+            и дизайнеры, а также проектные менеджеры. Выбирая GEEKS, вы можете быть уверены, что после окончания обучения вы
+            получите гарантированную стажировку, где не просто получите опыт, но и сможете построить целую карьеру</p>
+
+
+            <div class="slider-container_2">
+              <button class="button_slider left" aria-label="Посмотреть предыдущий слайд">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                  <path d="M28.9231 6L32 8.90907L18.1538 22L32 35.0909L28.9231 38L15.0769 24.9091L12 22L15.0769 19.0909L28.9231 6Z"
+                    fill="#FCE900" />
+                </svg>
+              </button>
+
+              <div class="slider_2">
+                <img src="/imegis/scroller.png" alt="" />
+                <img src="/imegis/scroller (1).png" alt="" />
+                <img src="/imegis/scroller (2).png" alt="" />
+                <img src="/imegis/scroller (3).png" alt="" />
+                <img src="/imegis/scroller (4).png" alt="" />
+                <img src="/imegis/scroller (5).png" alt="" />
+                <img src="/imegis/scroller (6).png" alt="" />
+              </div>
+        
+                <button class="button_slider raidh" aria-label="Посмотреть следующий слайд">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                    <path d="M15.0769 6L12 8.90907L25.8462 22L12 35.0909L15.0769 38L28.9231 24.9091L32 22L28.9231 19.0909L15.0769 6Z"
+                      fill="#FCE900" />
+                  </svg>
+                </button>
+              
+            </div>
+          </div>
+
+
+
+          <div class="sertificats">
+               <h2>Сертификат</h2>
+               <p>По окончанию обучения выдается сертификат государственного образца на трех языках с лицензией Министерства образования
+              КР.</p>
+               <div class="sertificats_img_block">
+                <img class="sertificats_img" src="./imegis/imag_.png">
+                <img class="sertificats_img" src="./imegis/imag_ (1).png">
+                <img class="sertificats_img" src="./imegis/imag_ (2).png">
+               </div>
+               <div class="foto_galery">
+                <p>GEEKS - это образовательный центр, который активно организует как развлекательные, так и профессиональные мероприятия, в
+                том числе выпускные и поездки.</p>
+                <button>Фото галерея 
+                   
+                  <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+                    <rect x="27.6299" y="13.6543" width="4" height="22.8109" transform="rotate(45 27.6299 13.6543)" fill="#FEFEFE" />
+                    <rect x="28.7842" y="11.5" width="4" height="20" fill="#FEFEFE" />
+                    <rect x="12.7842" y="15.5" width="4" height="20" transform="rotate(-90 12.7842 15.5)" fill="#FEFEFE" />
+                  </svg>
+
+                </button>
+
+               </div>
+          </div>
+          
+<!-- accordion -->
+          
+          <div id="go-faq" class="accordion">
+            <h2>Часто задаваемые вопросы</h2>
+            <div class="accordion-item">
+              <div class="accordion-header">Как выбрать направление ?
+          
+                <svg class="svg_accordion" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                  fill="none">
+                  <rect x="20" y="5" width="4" height="34" fill="black" />
+                  <rect x="5" y="24" width="4" height="34" transform="rotate(-90 5 24)" fill="black" />
+                </svg>
+          
+              </div>
+              <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, veritatis aliquid vel dignissimos natus
+                  ut recusandae molestias quae nisi esse molestiae deleniti dolore. Nihil necessitatibus omnis maxime natus quo
+                  excepturi.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header"> Какое направление легче ?
+          
+                <svg class="svg_accordion" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                  fill="none">
+                  <rect x="20" y="5" width="4" height="34" fill="black" />
+                  <rect x="5" y="24" width="4" height="34" transform="rotate(-90 5 24)" fill="black" />
+                </svg>
+          
+              </div>
+              <div class="accordion-content">
+                <p>Содержимое раздела 2.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header"> Актуален ли учебный план?
+          
+                <svg class="svg_accordion" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                  fill="none">
+                  <rect x="20" y="5" width="4" height="34" fill="black" />
+                  <rect x="5" y="24" width="4" height="34" transform="rotate(-90 5 24)" fill="black" />
+                </svg>
+          
+          
+              </div>
+              <div class="accordion-content">
+                <p>Содержимое раздела 3.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header"> Актуален ли учеьный план?
+          
+                <svg class="svg_accordion" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                  fill="none">
+                  <rect x="20" y="5" width="4" height="34" fill="black" />
+                  <rect x="5" y="24" width="4" height="34" transform="rotate(-90 5 24)" fill="black" />
+                </svg>
+          
+              </div>
+              <div class="accordion-content">
+                <p>Содержимое раздела 3.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header"> Актуален ли учеьный план?
+          
+                <svg class="svg_accordion" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                  fill="none">
+                  <rect x="20" y="5" width="4" height="34" fill="black" />
+                  <rect x="5" y="24" width="4" height="34" transform="rotate(-90 5 24)" fill="black" />
+                </svg>
+          
+              </div>
+              <div class="accordion-content">
+                <p>Содержимое раздела 3.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header"> Актуален ли учеьный план?
+          
+                <svg class="svg_accordion" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                  fill="none">
+                  <rect x="20" y="5" width="4" height="34" fill="black" />
+                  <rect x="5" y="24" width="4" height="34" transform="rotate(-90 5 24)" fill="black" />
+                </svg>
+          
+              </div>
+              <div class="accordion-content">
+                <p>Содержимое раздела 3.</p>
+              </div>
+            </div>
+          
+          </div>
+
+
+          <div class="regis">
+            <h2 class="regis_block">Получить консультацию и записаться на курс</h2>
+            <div class="regis_block2">
+              <input type="text" id="input1" placeholder="Имя">
+              <input type="text" id="input2" placeholder="Номер телефона">
+              <button id="sendMessage">Отправить</button>
+            </div>
+            <p>Нажимая на кнопку вы соглашаетесь на обработку персональных данных </p>
+          </div>
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- модальные окна  -->
+
+
+
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <span class="close" id="closeModalButton">
+              <img src="/modal_windows/stickers/Cross (3).png" alt="Закрыть">
+            </span>
+            <h2 class="header1">Все о направлении</h2>
+          </div>
+        
+          <div class="modal-content2">
+            <div class="heading">
+              <div class="ftn">
+                <h2 class="ftn-p1">UX/UI</h2>
+              </div>
+              <div class="dev">
+                <h2 class="dev-h2">ДИЗАЙНЕР</h2>
+              </div>
+              <div class="stick"><img src="/modal_windows/stickers/figma_sticker (5).png" alt=""></div>
+        
+            </div>
+            <div class="what">
+              <h2 class="what-h2">Что такое <span class="colortext1">UX/UI - Дизайн?</span></h2>
+            </div>
+        
+            <div class="text-p">
+              <p>UX/UI дизайн – это область проектирования интерфейсов для различных продуктов, включая веб-сайты,
+                мобильные приложения, программное обеспечение и другие цифровые продукты. UX означает
+                "пользовательский опыт", а UI – "интерфейс пользователя". UX-дизайнеры занимаются
+                проектированием пользовательского опыта, то есть тем, как пользователь взаимодействует с
+                продуктом, его легкостью использования и эффективностью. UI-дизайнеры занимаются проектированием
+                интерфейса, т.е. внешнего вида продукта, его компоновкой, цветовой гаммой, шрифтами и другими
+                элементами, которые визуально представляют продукт.</p>
+            </div>
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-1/Cover (2).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Дизайнеры UX/UI играют важную роль в создании продуктов, которые удовлетворяют потребности
+                пользователей. Они проводят исследования пользователей, чтобы понять, как они используют
+                продукт, и что они ожидают от него. На основе этой информации они разрабатывают интерфейсы и
+                процессы, которые облегчают использование продукта. Они также тестируют продукты, чтобы
+                убедиться, что они соответствуют ожиданиям пользователей и эффективно выполняют свои функции.
+              </p>
+        
+            </div>
+        
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-1/image 42 (1).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Для того чтобы стать дизайнером UX/UI, нужно иметь знания в области психологии, дизайна,
+                технологий и разработки. Также необходимо уметь работать с различными инструментами для создания
+                прототипов, визуальных макетов и тестирования продуктов.</p>
+            </div>
+        
+            <div class="head">
+              <img src="/modal_windows/imgs/imgs-1/image 44 (1).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Ключевыми навыками для дизайнеров UX/UI являются:</p>
+            </div>
+            <div class="text-p">
+              <ul class="ul">
+                <li>Понимание пользователей и их потребностей;</li>
+                <li>Умение создавать информационную архитектуру продукта;</li>
+                <li>Умение создавать интерактивные прототипы и макеты;</li>
+                <li> Знание основных принципов дизайна;</li>
+                <li>Умение работать с графическими инструментами;</li>
+                <li>Умение тестировать продукты и проводить анализ результатов.</li>
+              </ul>
+            </div>
+        
+            <div class="text-p">
+              <p>Дизайнеры UX/UI играют важную роль в создании продуктов, которые соответствуют потребностям
+                пользователей и обеспечивают удобство и легкость использования. </p>
+            </div>
+        
+            <div class="wage">
+              <h2 class="wage-h2"> Средняя зарплаты <span class="colortext1">UX/UI - Дизайнеров</span> </h2>
+            </div>
+        
+            <div class="cost">
+              <img src="/modal_windows/imgs/imgs-1/dev (2).png" alt="">
+              <img src="/modal_windows/imgs/imgs-1/dev (3).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Средняя зарплата начинающих IT-специалистов варьируется от 300 до 700 USD. </p>
+            </div>
+            <div class="text-p">
+              <p>Так же у всех выпускников есть возможность стажироваться с последующим трудоустройством в нашей
+                IT-компании </p>
+        
+              <div class="geek">
+                <p class="geek-p">GeekStudio</p>
+              </div>
+            </div>
+        
+          </div>
         </div>
-    </div>
+        
+        <!-- end 1   -->
+        
+        <!-- 2 -->
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <span class="close" id="closeModalButton">
+              <img src="/modal_windows/stickers/Cross (3).png" alt="Закрыть">
+            </span>
+            <h2 class="header1">Все о направлении</h2>
+          </div>
+        
+          <div class="modal-content2">
+            <div class="heading">
+              <div class="ftn">
+                <h2 class="ftn-p2">android</h2>
+              </div>
+              <div class="dev">
+                <h2 class="dev-h2">разработКА</h2>
+              </div>
+              <img class="stick" src="/modal_windows/stickers/figma_sticker (6).png" alt="">
+            </div>
+            <div class="what">
+              <h2 class="what-h2">Что такое <span class="colortext2"> Android - Разработка?</span></h2>
+            </div>
+        
+            <div class="text-p">
+              <p>Android-разработка - это процесс создания приложений для мобильных устройств, работающих на
+                операционной системе Android. Эти приложения могут выполнять широкий спектр задач, таких как
+                игры, социальные сети, приложения для бизнеса и многое другое.</p>
+            </div>
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-2/image 45 (2).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Разработчики Android занимаются созданием приложений, которые работают на мобильных устройствах,
+                таких как смартфоны и планшеты. Они используют языки программирования, такие как Java или
+                Kotlin, для создания логики приложения, а также XML для создания пользовательского интерфейса.
+                Они также используют инструменты, такие как Android Studio, для создания, отладки и тестирования
+                приложений.</p>
+            </div>
+        
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-2/image 42 (4).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Разработчики Android работают в тесном взаимодействии с дизайнерами, чтобы создать приятный и
+                интуитивно понятный пользовательский интерфейс. Они также могут работать с
+                бэкенд-разработчиками, чтобы интегрировать приложение с серверной частью и обеспечить более
+                широкий функционал.</p>
+            </div>
+        
+            <div class="head">
+              <img src="/modal_windows/imgs/imgs-2/image 44 (2).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Ключевыми навыками для разработчиков Android являются: </p>
+            </div>
+            <div class="text-p">
+              <ul class="ul">
+                <li>Знание языков программирования Java или Kotlin;</li>
+                <li>Умение работать с XML для создания пользовательского интерфейса;</li>
+                <li> Понимание принципов дизайна и визуального представления информации;</li>
+                <li>Знание инструментов для разработки и тестирования приложений, таких как Android Studio;</li>
+                <li>Понимание основных алгоритмов и структур данных.</li>
+              </ul>
+            </div>
+        
+        
+            <div class="text-p">
+              <p>Разработчики Android играют важную роль в создании приложений, которые могут улучшить жизнь людей
+                и помочь им решать задачи на повседневной основе. Если вы хотите стать разработчиком Android, то
+                вам следует изучить языки программирования Java или Kotlin, а также инструменты для создания и
+                тестирования приложений. Также важно иметь хорошие навыки визуального представления информации и
+                понимать принципы дизайна.</p>
+            </div>
+        
+            <div class="wage">
+              <h2 class="wage-h2"> Средняя зарплаты <span class="colortext2">Andoroid - Разработчиков</span> </h2>
+            </div>
+        
+            <div class="cost">
+              <img src="/modal_windows/imgs/imgs-2/dev (4).png" alt="">
+              <img src="/modal_windows/imgs/imgs-2/dev (5).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Средняя зарплата начинающих IT-специалистов варьируется от 300 до 700 USD. </p>
+            </div>
+            <div class="text-p">
+              <p>Так же у всех выпускников есть возможность стажироваться с последующим трудоустройством в нашей
+                IT-компании </p>
+        
+              <div class="geek">
+                <p class="geek-p">GeekStudio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end 2  -->
+        
+        
+        <!-- 3 -->
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+            <span class="close" id="closeModalButton">
+              <img src="/modal_windows/stickers/Cross (3).png" alt="Закрыть">
+            </span>
+            <h2 class="header1">Все о направлении</h2>
+          </div>
+          <div class="modal-content2">
+            <div class="heading">
+              <div class="ftn">
+                <h2 class="ftn-p3">детское</h2>
+              </div>
+              <div class="dev">
+                <h2 class="dev-h2">программирование</h2>
+              </div>
+              <img class="stick" src="/modal_windows/stickers/figma_sticker (7).png" alt="">
+            </div>
+            <div class="what">
+              <h2 class="what-h2">Что такое <span class="colortext3">Scratch?</span></h2>
+            </div>
+        
+            <div class="text-p">
+              <p>Scratch - это язык программирования, который создан для обучения детей и новичков основам
+                программирования. Он представляет собой интуитивно понятный интерфейс, в котором
+                программирование происходит с помощью блоков, которые можно перемещать и соединять между собой.
+              </p>
+            </div>
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-3/image 45 (1).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Одним из главных плюсов Scratch является то, что он очень прост в использовании и не требует
+                знания языков программирования. Благодаря интуитивному интерфейсу, пользователи могут легко
+                создавать интерактивные проекты и игры. Это делает Scratch отличным инструментом для обучения
+                основам программирования и развития творческих навыков.</p>
+            </div>
+        
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-3/image 42 (2).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Программирование может быть очень полезным для детей. Вот несколько причин, почему:</p>
+            </div>
+            <div class="text-p">
+              <ol class="ul">
+                <li> Развивает логическое мышление: программирование требует детей думать логически и разбивать
+                  задачи на более мелкие компоненты. Это помогает развивать у них умение анализировать и
+                  решать проблемы.</li>
+                <li> Развивает творческие навыки: программируя, дети могут создавать свои собственные игры,
+                  приложения и веб-сайты. Это помогает им развивать свою творческую мысль и воображение.</li>
+                <li> Учит важные навыки: программирование помогает детям развивать навыки коммуникации,
+                  сотрудничества и управления проектами. Они учатся работать в команде и делиться своими
+                  идеями.</li>
+                <li>Помогает в будущей карьере: программирующие дети могут получить преимущество на рынке труда,
+                  так как эти навыки очень востребованы во многих сферах, включая IT-индустрию.</li>
+                <li>Учит ответственности: программирование требует тщательного планирования и организации, а
+                  также умения управлять временем. Эти навыки могут помочь детям стать более ответственными и
+                  организованными в своей жизни.</li>
+                <li>Стимулирует интерес к науке и технологиям: программирующие дети часто становятся более
+                  заинтересованными в науке, технологии и инженерии. Это может привести к интересным и
+                  перспективным карьерным возможностям в будущем.</li>
+              </ol>
+            </div>
+            <div class="text-p">
+              <p> В целом, программирование может быть очень полезным для детей и помочь им развить множество
+                важных навыков и интересов.</p>
+            </div>
+        
+          </div>
+        </div>
+        <!-- end 3  -->
+        
+        
+        <!-- модальный окно 4    -->
+        <div id="modal4" class="modal">
+          <div class="modal-content">
+            <span class="close" id="closeModalButton">
+              <img src="/modal_windows/stickers/Cross (3).png" alt="Закрыть">
+            </span>
+            <h2 class="header1">Все о направлении</h2>
+          </div>
+        
+          <div class="modal-content2">
+            <div class="heading">
+              <div class="ftn">
+                <h2 class="ftn-p4">frontend</h2>
+              </div>
+              <div class="dev">
+                <h2 class="dev-h2">разработКА</h2>
+              </div>
+              <img class="stick" src="/modal_windows/stickers/figma_sticker (8).png" alt="">
+            </div>
+            <div class="what">
+              <h2 class="what-h2">Что такое <span class="colortext4"> Frontend - Разработка?</span></h2>
+            </div>
+        
+            <div class="text-p">
+              <p>Frontend-разработка - это процесс создания клиентской части веб-сайта или приложения, которая
+                отображается на экране пользователя и с которой пользователь может взаимодействовать. Это
+                включает в себя дизайн, верстку и программирование интерактивных элементов пользовательского
+                интерфейса.</p>
+            </div>
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-4/Cover (1).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Разработчики frontend занимаются созданием интерфейса, который пользователи видят на экране. Они
+                используют языки программирования, такие как HTML, CSS и JavaScript, для создания визуальных
+                элементов и функций интерфейса. Они также могут использовать библиотеки и фреймворки, такие как
+                React, Angular или Vue, для более эффективного и быстрого создания интерфейса.</p>
+            </div>
+        
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-4/image 42.png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Разработчики frontend работают в тесном взаимодействии с дизайнерами, чтобы преобразовать дизайн
+                в интерактивный интерфейс. Они также могут работать с бэкенд-разработчиками, чтобы интегрировать
+                интерфейс с серверной частью приложения.</p>
+            </div>
+            <div class="head">
+              <img src="/modal_windows/imgs/imgs-4/image 44.png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Ключевыми навыками для разработчиков frontend являются:</p>
+            </div>
+            <div class="text-p">
+              <ul class="ul">
+                <li> Умение работать с HTML, CSS и JavaScript;</li>
+                <li> Знание библиотек и фреймворков, таких как React, Angular или Vue;</li>
+                <li> Понимание принципов дизайна и визуального представления информации;</li>
+                <li> Умение создавать адаптивный дизайн для различных устройств и экранов;</li>
+                <li> Умение работать с инструментами для отладки и тестирования кода.</li>
+              </ul>
+            </div>
+        
+            <div class="text-p">
+              <p>Разработчики frontend играют важную роль в создании веб-сайтов и приложений, которые пользователи
+                могут легко использовать и получать удовольствие от использования. Если вы хотите стать
+                разработчиком frontend, то вам следует изучить языки программирования HTML, CSS и JavaScript, а
+                также библиотеки и фреймворки для создания интерфейса. Также важно иметь хорошие навыки
+                визуального представления информации и понимать принципы дизайна.</p>
+            </div>
+        
+            <div class="wage">
+              <h2 class="wage-h2"> Средняя зарплаты <span class="colortext4">Frontend - Разработкчика</span> </h2>
+            </div>
+        
+            <div class="cost">
+              <img src="/modal_windows/imgs/imgs-4/dev.png" alt="">
+              <img src="/modal_windows/imgs/imgs-4/dev (1).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Средняя зарплата начинающих IT-специалистов варьируется от 300 до 700 USD. </p>
+            </div>
+            <div class="text-p">
+              <p>Так же у всех выпускников есть возможность стажироваться с последующим трудоустройством в нашей
+                IT-компании </p>
+        
+              <div class="geek">
+                <p class="geek-p">GeekStudio</p>
+              </div>
+            </div>
+        
+        
+        
+          </div>
+        </div>
+        <!-- end 4   -->
+        
+        
+        <!-- 5 -->
+        <div id="modal5" class="modal">
+          <div class="modal-content">
+            <span class="close" id="closeModalButton">
+              <img src="/modal_windows/stickers/Cross (3).png" alt="Закрыть">
+            </span>
+            <h2 class="header1">Все о направлении</h2>
+          </div>
+        
+          <div class="modal-content2">
+            <div class="heading">
+              <div class="ftn">
+                <h2 class="ftn-p5">bACKEND</h2>
+              </div>
+              <div class="dev">
+                <h2 class="dev-h2">разработКА</h2>
+              </div>
+              <img class="stick" src="/modal_windows/stickers/figma_sticker (3).png" alt="">
+            </div>
+            <div class="what">
+              <h2 class="what-h2">Что такое <span class="colortext5"> Backend - Разработка?</span></h2>
+            </div>
+        
+            <div class="text-p">
+              <p>Backend-разработка - это процесс создания программного обеспечения, которое работает на сервере и
+                отвечает за обработку запросов, хранение данных и обеспечение безопасности. В отличие от
+                frontend-разработки, где создаются пользовательские интерфейсы для приложений,
+                backend-разработка скрыта от конечного пользователя и обычно включает в себя работу с базами
+                данных и программирование API.</p>
+            </div>
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-5/image 45 (3).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Разработчики backend занимаются созданием программного обеспечения, которое работает на сервере.
+                Они
+                используют языки программирования, такие как Python, Ruby, Java, C# и другие, для создания
+                логики
+                приложения, обработки запросов и связи с базами данных. Они также используют инструменты, такие
+                как
+                фреймворки и библиотеки, для упрощения разработки и ускорения процесса.</p>
+            </div>
+        
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-5/image 42 (5).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Разработчики backend работают в тесном взаимодействии с frontend-разработчиками и дизайнерами,
+                чтобы
+                обеспечить правильное взаимодействие между сервером и клиентскими приложениями. Они также
+                работают с
+                другими специалистами в области IT, такими как сетевые инженеры и специалисты по безопасности,
+                чтобы
+                обеспечить надежность и безопасность программного обеспечения.</p>
+            </div>
+        
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs-5/image 44 (4).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Ключевыми навыками для разработчиков backend являются:</p>
+            </div>
+            <div class="text-p">
+              <ul class="ul">
+                <li>Знание языков программирования, таких как Python, Ruby, Java, C# и другие;</li>
+                <li> Умение работать с базами данных и создавать эффективные алгоритмы для обработки данных;
+                </li>
+                <li> Понимание основных принципов безопасности и защиты данных;</li>
+                <li> Знание инструментов для разработки, таких как фреймворки и библиотеки;</li>
+                <li> Умение работать в команде и хорошее коммуникативные навыки.</li>
+              </ul>
+            </div>
+            <div class="text-p">
+              <p>Разработчики backend играют важную роль в создании программного обеспечения, которое обеспечивает
+                стабильность и безопасность работы приложений. Если вы хотите стать разработчиком backend, то
+                вам
+                следует изучить языки программирования и базы данных, а также инструменты для разработки и
+                тестирования
+                программного обеспечения. Также важно иметь хорошее понимание безопасности и принципов защиты
+                данных.
+              </p>
+            </div>
+        
+            <div class="wage">
+              <h2 class="wage-h2"> Средняя зарплаты <span class="colortext5">Backend - Разработчиков</span> </h2>
+            </div>
+        
+            <div class="cost">
+              <img src="/modal_windows/imgs/imgs-5/dev (6).png" alt="">
+              <img src="/modal_windows/imgs/imgs-5/dev (7).png" alt="">
+            </div>
+            <div class="text-p">
+              <p>Средняя зарплата начинающих IT-специалистов варьируется от 300 до 700 USD. </p>
+            </div>
+            <div class="text-p">
+              <p>Так же у всех выпускников есть возможность стажироваться с последующим трудоустройством в нашей
+                IT-компании </p>
+        
+              <div class="geek">
+                <p class="geek-p">GeekStudio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        <!-- end 5 -->
+        
+        <!--  -->
+        <div id="modal6" class="modal">
+          <div class="modal-content">
+            <span class="close" id="closeModalButton">
+              <img src="/modal_windows/stickers/Cross (3).png" alt="Закрыть">
+            </span>
+            <h2 class="header1">Все о направлении</h2>
+          </div>
+          <div class="modal-content2">
+            <div class="heading">
+              <div class="ftn">
+                <h2 class="ftn-p6">основы </h2>
+              </div>
+              <div class="dev">
+                <h2 class="dev-h2">программирования</h2>
+              </div>
+              <img class="stick" src="/stickers/figma_sticker (11).png" alt="">
+            </div>
+            <div class="what">
+              <h2 class="what-h2">Что такое <span class="colortext6">Основы программирования ?</span></h2>
+            </div>
+        
+            <div class="text-p">
+              <p>Курс состоит из четырех недель, каждая из которых посвящена изучению основ разных аспектов
+                программирования:</p>
+            </div>
+            <div class="cover">
+              <img src="/modal_windows/imgs/imgs6/image 45 (4).png" alt="">
+            </div>
+        
+            <div class="text-p">
+              <ol class="">
+                <li class="li6">
+                  UI/UX В первой неделе курса студенты знакомятся с профессией UX/UI дизайнера, изучают
+                  инструмент
+                  Figma и его интерфейс, а также основные элементы дизайна интерфейса, такие как кнопки,
+                  строки,
+                  хедеры, футеры и т.д. В конце недели студенты должны создать дизайн одностраничного сайта и
+                  дизайн
+                  приложения на 3-4 страницы.</li>
+        
+        
+                <div class="cover">
+                  <img src="/modal_windows/imgs/imgs6/image 42 (7).png" alt="">
+                </div>
+        
+                <li class="li6">
+                  OS Android Вторая неделя посвящена изучению разработки под ОС Android. Студенты учатся
+                  работать в
+                  среде разработки Android Studio и с языком разметки XML, учатся верстать экраны с помощью
+                  Linear
+                  Layout, TextView, ImageView, Button и загрузки фотографий. Они также изучают Intent и
+                  применение
+                  AlertDialog, а также работу с системной кнопкой "Назад" и добавление анимации.
+                </li>
+        
+                <div class="cover">
+                  <img src="/modal_windows/imgs/imgs6/image 44 (3).png" alt="">
+                </div>
+        
+                <li class="li6">
+                  Frontend Третья неделя посвящена изучению Frontend-разработки. Студенты учатся создавать
+                  HTML и CSS
+                  файлы, изучают основные методы использования CSS и позиционирования элементов, а также
+                  работу с
+                  картинками и подключение шрифтов. В конце недели студенты должны выполнить адаптивную
+                  верстку и
+                  создать футер.
+                </li>
+                <div class="cover">
+                  <img src="/modal_windows/imgs/imgs6/image 46.png" alt="">
+                </div>
+        
+                <li class="li6">
+                  Backend Четвертая неделя посвящена изучению Backend-разработки с помощью Python. Студенты
+                  изучают
+                  основные операторы, операции, функции, листы, кортежи, циклы, а также создание калькулятора
+                  и
+                  выполнение базовых функций. Они также учатся работать с Django, выполнению базовых функций и
+                  запуску
+                  проекта.
+                </li>
+        
+                <p>В конце каждой недели студенты должны выполнить проект в соответствующей области изучения,
+                  чтобы
+                  закрепить полученные знания.</p>
+              </ol>
+            </div>
+        
+        
+        
+          </div>
+        </div>
+        <!-- </div> -->
+    
     <script src="./slider.js"></script>
+    <script src="./modal_windows/modal.js"></script>
+    <script src="./acardion.js"></script>
+    <script src="./botTelegram.js"></script>
 </body>
 </html>

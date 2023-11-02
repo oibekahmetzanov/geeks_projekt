@@ -33,9 +33,7 @@
     .burger_navbar{
         /* background-color: #FCE900; */
         display: flex;
-        text-align: center;
-        justify-content: center;
-        text-align: center;
+        align-items: center;
         flex-wrap: nowrap;
         width: 100%;
         height: 80px;
@@ -44,16 +42,38 @@
         position:fixed;
         backdrop-filter: blur(7px) ;
         border-bottom: 1px solid black;
-        padding-top: 13px;
+       
+        z-index: 999;
+        gap: 190px;
     }
-    .burger_navbar img{
-        width: 10%;
-    }
+    
+.geeks_founders p{
+    width: 362px;
+    height: 100px;
+    color: var(--ui-black, #000);
+        text-align: center;
+        /* mobile/sub_16 */
+        font-family: Onest;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
     .why_geeks_mindows{
         display: flex;
         flex-direction: column;
         gap: 50px;
         width: 100%;
+    }
+    .why_geeks h1{
+        width: 195px;
+        height: 40px;
+        font-family: Reforma Grotesk Demi;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
     }
     .why_geeks_mindows img{
         width: 100%;
@@ -80,6 +100,13 @@ display: none;
         height: 542px;
         gap: 10px;
     }
+
+    .geeks_founders_img{
+        display: none;
+    }
+        .geeks_founders_adaptiv_img{
+            display: block;
+        }
     .course p{
         color: var(--ui-white, #FEFEFE);
 text-align: center;
@@ -113,8 +140,32 @@ line-height: normal;
         display: flex;
         justify-content: flex-start;
         margin-left: 10%;
+       padding-top: 20px;
     }
     .cours_top_bar img{
         width: 80%;
     }
+    .slider_2{
+        width:361px;
+        height: 201px;
+    }
+    .slider_2 img{
+        width: 361px;
+            height: 201px;
+    }
+    .button_slider svg{
+        width: 24px;
+        height: 24px;
+    }
+    .button_slider{
+width: 34px;
+    height: 202px;
+    flex-shrink: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.60);
+     backdrop-filter: blur(5px);
+     margin: 0px -34px;
+     border: none;
+    }
+
 }
