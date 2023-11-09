@@ -21,9 +21,9 @@
         <div class="navbar">
             <img src="./imegis/Logo.png" class="geeks_logo">
             <ul>
-                <li><b>О нас</b></li>
-                <li><b>Наши курсы</b></li>
-                <li><b>стажировка</b></li>
+                <li><a href="#about_geeks"><b>О нас</b></a></li>
+                <li><a href="#geeks_course"><b>Наши курсы</b></a></li>
+                <li><a href="#probation"><b>стажировка</b></a></li>
                 <li><a href="#go-faq"><b>FAQ</b></a></li>
             </ul>
             <div class="call">
@@ -84,7 +84,7 @@
                
             </div>
         </div>
-        <div class="about_geeks">
+        <div class="about_geeks" id="about_geeks">
             <div class="geeks_founders">
                 <H2>О нас</H2>
 
@@ -119,6 +119,22 @@
                     <img src="./imegis/video (1).png">
                     <img src="./imegis/video (2).png">
                 </div>
+                <div class="block_students_videos">
+                  <div class="slider_students_videos">
+                    <img src="./imegis/video.png" alt="" />
+                    <img src="./imegis/video (1).png" alt="" />
+                    <img src="./imegis/video (2).png" alt="" />
+                    
+                  </div>
+                  <div class="slider-btn-container">
+                    <button class="prev_button_slider_students_videos" aria-label="Посмотреть предыдущий слайд">
+                      <img src="/imegis/Arrow.png" alt="" />
+                    </button>
+                    <button class="next_button_slider_students_videos" aria-label="Посмотреть следующий слайд">
+                      <img src="/imegis/Arrow (1).png" alt="" />
+                    </button>
+                  </div>
+                </div>
         </div>
         <div class="students_copmany">
             <h2>Где работают наши выпускники</h2>
@@ -135,7 +151,7 @@
                 <img src="./imegis/sibers.png">
             </div>
         </div>
-        <div class="geeks_course">
+        <div class="geeks_course" id="geeks_course">
             <p class="geeks_cours_text">Наши курсы</p>
             <div class="block_course">
                 <div class="course android">
@@ -258,7 +274,7 @@
             </div>
           </div>
 
-          <div class="probation">
+          <div class="probation" id="probation">
             <h2>гарантированная стажировка</h2>
             <p>На сегодняшний день GeekStudio состоит из более 30 специалистов разных областей. Сюда входят не только программисты, но
             и дизайнеры, а также проектные менеджеры. Выбирая GEEKS, вы можете быть уверены, что после окончания обучения вы
@@ -419,7 +435,7 @@
             <h2 class="regis_block">Получить консультацию и записаться на курс</h2>
             <div class="regis_block2">
               <input type="text" id="input1" placeholder="Имя">
-              <input type="text" id="input2" placeholder="Номер телефона">
+              <input type="number" id="input2" placeholder="Номер телефона">
               <button id="sendMessage">Отправить</button>
             </div>
             <p>Нажимая на кнопку вы соглашаетесь на обработку персональных данных </p>

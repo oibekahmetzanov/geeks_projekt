@@ -81,6 +81,38 @@
   }
 
 
+
+.slider_students_videos{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 10px;
+}
+
+.block_students_videos {
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 30px;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.slider_students_videos img{
+width: 90%;
+}
+.prev_button_slider_students_videos,
+.next_button_slider_students_videos{
+  margin-top: 30px;
+  width: 90px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    font-size: 24px;
+    color: rgb(221, 218, 20);
+}
+  
+  
+
   /* слайдер номер 2  */
 
 .slider-container_2{
@@ -117,7 +149,7 @@ background-color: white;
       letter-spacing: 0em;
       text-align: center;
 }
-@media(max-width:400px){
+@media(max-width:480px){
   .probation p{
    width: 361px;height: 180px;
    font-size: 16px;

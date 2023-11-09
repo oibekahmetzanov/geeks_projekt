@@ -1,6 +1,6 @@
-@media(max-width:400px){ 
+@media(max-width:480px){ 
     .conteiner{
-        width: 400px;
+        width: 480px;
     }  
     .geeks_cours_text{
      font-size: 24px;
@@ -90,6 +90,12 @@ display: none;
     .geeks_in_number_adaptiv img{
         width: 100%;
         margin-top: 25px;
+    }
+    .students_videos{
+        display: none;
+    }
+    .block_students_videos{
+        display: block;
     }
     .block_course{
         flex-direction: column;

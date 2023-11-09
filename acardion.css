@@ -162,7 +162,7 @@
         align-items: center;
         gap: 2px;
         flex-shrink: 0;
-        color: var(--ui-grey-grey-1, #57585A);
+        color: var(--ui-grey-grey-1, #ebedf0);
             text-align: justify;
         
             /* onest/sub_24 */
@@ -186,7 +186,10 @@
         font-weight: 700;
         line-height: normal;
 }
-@media(max-width:400px){
+@media(max-width:480px){
+    .accordion h2{
+        margin: 30px auto;
+    }
     .regis_block{
         width: 355px;height: 40px;
         font-size: 24px;

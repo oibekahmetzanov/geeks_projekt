@@ -296,6 +296,9 @@ letter-spacing: 8.16px;
     margin-top: 30px;
 
 }
+.block_students_videos{
+    display: none;
+}
 
 /* курсы гикс */
 .geeks_course{
@@ -332,7 +335,7 @@ letter-spacing: 8.16px;
     flex-direction: column;
     background-color: black;
     width: 27%;
-    height: 450px;
+    height: 510px;
     color: white;
     margin: 0.5em;
     align-items: center;
@@ -401,7 +404,7 @@ letter-spacing: 8.16px;
     display: flex;
     gap: 40px;
 }
-@media(max-width:400px){
+@media(max-width:480px){
     .sertificats h2{
         width: 107px;
         height: 40px;
@@ -462,12 +465,13 @@ color: var(--ui-white, #FEFEFE);
         font-weight: 400;
         line-height: normal;
 }
-@media(max-width:400px){
+@media(max-width:480px){
    .foto_galery{
-    width: 400px;
+    width: 480px;
     height: 506px;
     gap: 104px;
     background-image: url(./imegis/backround\ \(1\).png);
+    background-size: 100%;
     background-repeat: no-repeat;
    }
    .foto_galery p{

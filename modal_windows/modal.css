@@ -97,6 +97,11 @@
     gap: 30px;
 }
 
+.modal-content2 p {
+    font-family: Onest;
+    font-size: 18px;
+    font-weight: 500;
+}
 
 /*  */
 .heading {
@@ -112,6 +117,11 @@
     align-items: flex-start;
     gap: 10px;
     background: var(--ui-black, #000);
+    font-family: Reforma Grotesk Demi;
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 3.48px;
+    text-transform: uppercase;
 }
 
 /*  */
@@ -143,6 +153,7 @@
     line-height: normal;
     letter-spacing: 3.48px;
     text-transform: uppercase;
+    font-family: Reforma Grotesk Demi
 }
 
 .ftn-p4 {
@@ -193,6 +204,7 @@
     line-height: normal;
     letter-spacing: 3.48px;
     text-transform: uppercase;
+    font-family: Reforma Grotesk Demi
 }
 
 .what {
@@ -210,6 +222,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    font-family: Reforma Grotesk Demi
 }
 
 /*  */
@@ -335,4 +348,160 @@
     position: relative;
     bottom: 170px;
     left: 180px;
+}
+
+@media(max-width:805px) {
+    .text-p {
+        width: 450px;
+    }
+
+    .colortext1 {
+        font-size: 28px;
+    }
+
+    .what-h2 {
+        font-size: 25px;
+    }
+
+    .cover img {
+        width: 478px;
+    }
+
+    .cover {
+        height: 145px;
+    }
+
+    .head img {
+        width: 478px;
+    }
+
+    .wage {
+        width: 478px;
+    }
+
+    .wage-h2 {
+        font-size: 28px;
+    }
+
+    .cost {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .geek {
+        width: 105px;
+        height: 25px;
+        left: 109px;
+        bottom: 19px;
+    }
+
+    .ftn-p3 {
+        font-size: 39px;
+    }
+
+    .dev-h2 {
+        font-size: 39px;
+    }
+}
+
+@media(max-width:500px) {
+    .modal-content2 {
+        margin-top: 50px;
+    }
+
+    .header1 {
+        font-size: 22px;
+    }
+
+    .ftn {
+        padding: 3px 16px;
+    }
+
+    .ftn-p1 {
+        font-size: 39px;
+    }
+
+    .dev {
+        padding: 4px 22px;
+    }
+
+    .dev-h2 {
+        font-size: 39px;
+    }
+
+    .stick {
+        width: 80px;
+        height: 112px;
+        bottom: 130px;
+        left: 98px;
+    }
+
+    .stick img {
+        width: 87px;
+    }
+
+    .text-p {
+        width: 350px;
+    }
+
+    .cost img {
+        width: 372px;
+    }
+
+    .colortext1 {
+        font-size: 22px;
+    }
+
+    .wage-h2 {
+        font-size: 21px;
+    }
+
+    .geek {
+        left: 173px;
+    }
+
+    .ftn-p2 {
+        font-size: 40px;
+    }
+
+    .what-h2 {
+        font-size: 17px;
+    }
+
+    .colortext2 {
+        font-size: 17px;
+    }
+
+    .dev-h2 {
+        font-size: 26px;
+    }
+
+    .ftn-p4 {
+        font-size: 39px;
+    }
+
+    .colortext4 {
+        font-size: 18px;
+    }
+
+    .ftn-p5 {
+        font-size: 36px;
+    }
+
+    .colortext5 {
+        font-size: 19px;
+    }
+
+    .ftn-p6 {
+        font-size: 39px;
+    }
+
+    .colortext6 {
+        font-size: 15px;
+    }
+
+    .cover img {
+        width: 360px;
+    }
 }
