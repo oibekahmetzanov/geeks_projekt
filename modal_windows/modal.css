@@ -351,6 +351,7 @@
 }
 
 @media(max-width:805px) {
+<<<<<<< HEAD
     .text-p {
         width: 450px;
     }
@@ -384,26 +385,63 @@
     }
 
     .cost {
+=======
+    .text-p{
+        width: 450px;
+    }
+    .colortext1 {
+        font-size: 28px;
+    }
+    .what-h2{
+        font-size: 25px;
+    }
+    .cover img{
+        width: 478px;
+    }
+    .cover{
+        height: 145px;
+    }
+    .head img{
+        width: 478px;
+    }
+    .wage{
+        width: 478px;
+    }
+    .wage-h2{
+        font-size: 28px;
+    }
+    .cost{
+>>>>>>> 3cf7ec8f8c4f0045db87f5771d044f5cb017d8cb
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3cf7ec8f8c4f0045db87f5771d044f5cb017d8cb
     .geek {
         width: 105px;
         height: 25px;
         left: 109px;
         bottom: 19px;
     }
+<<<<<<< HEAD
 
     .ftn-p3 {
         font-size: 39px;
     }
 
+=======
+    .ftn-p3{
+        font-size: 39px;
+    }
+>>>>>>> 3cf7ec8f8c4f0045db87f5771d044f5cb017d8cb
     .dev-h2 {
         font-size: 39px;
     }
 }
+<<<<<<< HEAD
 
 @media(max-width:500px) {
     .modal-content2 {
@@ -430,12 +468,34 @@
         font-size: 39px;
     }
 
+=======
+@media(max-width:500px) {
+    .modal-content2{
+        margin-top: 50px;
+    }
+    .header1 {
+        font-size: 22px;
+    }
+    .ftn {
+        padding: 3px 16px;
+    }
+    .ftn-p1 {
+        font-size: 39px;
+    }
+    .dev {
+        padding: 4px 22px;
+    }
+    .dev-h2{
+        font-size: 39px;
+    }
+>>>>>>> 3cf7ec8f8c4f0045db87f5771d044f5cb017d8cb
     .stick {
         width: 80px;
         height: 112px;
         bottom: 130px;
         left: 98px;
     }
+<<<<<<< HEAD
 
     .stick img {
         width: 87px;
@@ -502,6 +562,57 @@
     }
 
     .cover img {
+=======
+    .stick img{
+        width: 87px;
+    }
+    .text-p{
+        width: 350px;
+    }
+    .cost img{
+        width: 372px;
+    }
+    .colortext1{
+        font-size: 22px;
+    }
+    .wage-h2{
+        font-size: 21px;
+    }
+    .geek{
+        left: 173px;
+    }
+    .ftn-p2{
+        font-size: 40px;
+    }
+    .what-h2{
+        font-size: 17px;
+    }
+    .colortext2{
+        font-size: 17px;
+    }
+    .dev-h2{
+        font-size: 26px;
+    }
+    .ftn-p4{
+        font-size: 39px;
+    }
+    .colortext4{
+        font-size: 18px;
+    }
+    .ftn-p5{
+        font-size: 36px;
+    }
+    .colortext5{
+        font-size: 19px;
+    }
+    .ftn-p6{
+        font-size: 39px;
+    }
+    .colortext6{
+        font-size: 15px;
+    }
+    .cover img{
+>>>>>>> 3cf7ec8f8c4f0045db87f5771d044f5cb017d8cb
         width: 360px;
     }
 }
