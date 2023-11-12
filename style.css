@@ -341,10 +341,10 @@ letter-spacing: 8.16px;
     align-items: center;
     text-align: center;
     justify-content: center;
-    gap: 3%;
+    gap: 2.5%;
 }
 .course h4{
-    color: var(--ui-grey-dop-green, #9ABE3D);
+    /* color: var(--ui-grey-dop-green, #9ABE3D); */
         text-align: center;
     
         /* reforma/button_42 */

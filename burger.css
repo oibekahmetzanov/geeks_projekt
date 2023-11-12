@@ -1,0 +1,126 @@
+.select_close{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+}
+.language{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98px;
+    height: 48px;
+}
+select{
+   
+    color: #FCE900;
+    background-color: #000;  
+    /* font-size: 22px; */
+    border: none;
+
+}
+.slide-menu {
+    display: flex;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: white;
+    flex-direction: column;
+    width: 70%;
+    z-index: 4;
+}
+
+.slide-menu.show {
+    transform: translateX(0);
+}
+
+.close-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.slide-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+}
+
+.slide-menu li {
+    margin: 10px;
+    color: var(--ui-black, #000);
+        text-align: center;
+    
+        
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.36px;
+}
+.slide-menu li a{
+color: var(--ui-black, #000);
+text-decoration: none;
+font-family: Reforma Grotesk Demi;
+
+}
+.slide-menu_futer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 177px;
+    gap: 30px;
+}
+.slide-menu p{
+    color: var(--ui-black, #000);
+        text-align: center;
+    
+        /* mobile/button_24 */
+        font-family: Reforma Grotesk Demi;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+}
+.slide-menu button{
+    color: var(--ui-yellow, #FCE900);
+     
+    
+        /* reforma/button_22 */
+        font-family: Reforma Grotesk Demi;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #000;
+        border: none;
+        width: 98px;
+        height: 48px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .burger-menu {
+        display: flex;
+    }
+
+    .slide-menu {
+        width: 100%;
+    }
+}
+@media(min-width:480px){
+    .slide-menu{
+        display: none;
+    }
+}

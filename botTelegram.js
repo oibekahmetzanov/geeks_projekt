@@ -39,3 +39,11 @@ span.onclick = function () {
     modalSuccess.style.display = "none";
     modalFailure.style.display = "none";
 }
+
+
+document.getElementById('sendMessageModal').addEventListener('click', () => {
+    const input1ValueModal = document.getElementById('input1Modal').value;
+    const input2ValueModal = document.getElementById('input2Modal').value;
+
+    sendTelegramMessage(input1ValueModal, input2ValueModal);
+});

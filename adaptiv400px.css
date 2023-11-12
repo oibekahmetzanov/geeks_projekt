@@ -43,7 +43,7 @@
         backdrop-filter: blur(7px) ;
         border-bottom: 1px solid black;
        
-        z-index: 999;
+        z-index: 3;
         gap: 190px;
     }
     

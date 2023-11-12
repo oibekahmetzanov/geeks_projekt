@@ -504,3 +504,107 @@
         width: 360px;
     }
 }
+
+
+
+
+.contact{
+    background-color: rgb(243 237 237 / 60%);
+    width: 1440px;
+        /* height: 100%; */
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.contact svg{
+    margin-left: 80%;
+    margin-top: 40px;
+}
+
+.contact_part1{
+    display: flex;
+    gap: 20px;
+    margin-top: 10%;
+
+}
+.contact_part1_text{
+    width: 458px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}.contact_part1_text h3,h4,p{
+   
+        font-family: Onest;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.contact_part1_text h4{
+    font-weight: 400;
+    color: var(--ui-grey-grey-1, #57585A);
+}
+.contact_part1_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact_part1_inputs input{
+    background-color: #000;
+        width: 458px;
+        height: 70px;
+        padding: 20px;
+        align-items: center;
+        gap: 2px;
+        flex-shrink: 0;
+        color: var(--ui-grey-grey-1, #ebedf0);
+        text-align: justify;
+        font-family: Onest;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.contact_part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_part2 button{
+    width: 936px;
+        height: 71px;
+        background-color: #FCE900;
+        border: none;
+        color: var(--ui-black, #000);
+        font-family: Onest;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.contact_part2 p {
+    color: var(--ui-black, #000);
+        text-align: center;
+    
+        /* onest/window_18 */
+        font-family: Onest;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 10px;
+}
+@media(max-width:480px){
+    .contact_part1{
+        flex-direction: column;
+    }
+   .contact_part2 button{
+    width: 458px;
+   }
+   .contact_part2 p{
+    font-size: 14px;
+   }
+}
