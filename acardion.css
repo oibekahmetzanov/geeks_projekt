@@ -65,12 +65,12 @@
     transition: transform 0.6s ease;
 }
 
-@media(max-width:400px){
+@media(max-width:480px){
     .accordion {
         display: inline-flex;
             flex-direction: column;
             align-items: center;
-            gap: 20px;
+            /* gap: 20px; */
     }
     .accordion h2{
         margin-left: 0;
@@ -82,7 +82,8 @@
     .accordion-header{
         display: flex;
         align-items: center;
-        width: 343px;
+        justify-content: space-between;
+        /* width: 343px; */
         height: 82px;
         text-align: left;
         
@@ -98,7 +99,7 @@
    .accordion-item{
     border-left: 0;
     border-right: 0;
-    width: 343px;
+    width: 450px;
    }
 
 }

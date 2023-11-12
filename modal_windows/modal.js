@@ -31,3 +31,35 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 });
+
+
+// const btnSuccess = document.getElementById("myBtnSuccess");
+// const btnFailure = document.getElementById("myBtnFailure");
+// const modalSuccess = document.getElementById('myModalSuccess');
+// const modalFailure = document.getElementById('myModalFailure');
+// const span = document.getElementsByClassName("closeSuccess")[0];
+
+// btnSuccess.onclick = function () {
+//     modalSuccess.style.display = "block";
+//     modalFailure.style.display = "none";
+// }
+
+// btnFailure.onclick = function () {
+//     modalFailure.style.display = "block";
+//     modalSuccess.style.display = "none";
+// }
+
+// span.onclick = function () {
+//     modalSuccess.style.display = "none";
+//     modalFailure.style.display = "none";
+// }
+
+// window.onclick = function (event) {
+//     if (event.target == modalSuccess || event.target == modalFailure) {
+//         modalSuccess.style.display = "none";
+//         modalFailure.style.display = "none";
+//     }
+// }
+
+// const slideIndex = 1;
+// showSlides(slideIndex);
