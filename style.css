@@ -404,7 +404,7 @@ letter-spacing: 8.16px;
     display: flex;
     gap: 40px;
 }
-@media(max-width:480px){
+@media screen and (max-width:480px){
     .sertificats h2{
         width: 107px;
         height: 40px;
@@ -465,7 +465,7 @@ color: var(--ui-white, #FEFEFE);
         font-weight: 400;
         line-height: normal;
 }
-@media(max-width:480px){
+@media screen and (max-width:480px){
    .foto_galery{
     width: 480px;
     height: 506px;
@@ -569,7 +569,7 @@ color: var(--ui-white, #FEFEFE);
     font-weight: 400;
 }
 
-@media(max-width:480px) {
+@media screen and (max-width:480px) {
     .modal-content-Success {
         width: 363px;
         height: 350px;
@@ -580,7 +580,7 @@ color: var(--ui-white, #FEFEFE);
     }
 }
 
-@media(max-width:415px) {
+@media  screen and (max-width:415px) {
     .modal-content-Success {
         width: 323px;
     }

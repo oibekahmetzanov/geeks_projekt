@@ -206,7 +206,7 @@ button {
 
 
 
-@media(max-width:480px){
+@media screen and (max-width:480px){
     .futer_blocs{
         flex-direction: column;
         align-items: center;
