@@ -161,7 +161,7 @@ button {
 
 .karta {
     display: flex;
-    width: 413px;
+    /* width: 413px; */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;

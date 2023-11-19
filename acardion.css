@@ -99,7 +99,7 @@
    .accordion-item{
     border-left: 0;
     border-right: 0;
-    width: 450px;
+    width: 100%;
    }
 
 }
@@ -204,7 +204,8 @@
         align-items: center;
     }
     .regis_block2 input button{
-        width: 360px;height: 60px;
+        width: 360px;
+        height: 60px;
     }
         .regis p{
             font-size: 14px;
