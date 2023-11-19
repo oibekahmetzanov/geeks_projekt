@@ -1,6 +1,6 @@
 @media(max-width:480px){ 
     .conteiner{
-        width: 480px;
+        width: 100%;
     }  
     .geeks_cours_text{
      font-size: 24px;
