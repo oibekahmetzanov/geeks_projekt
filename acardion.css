@@ -74,7 +74,7 @@
     }
     .accordion h2{
         margin-left: 0;
-        width: 222px;
+        /* width: 222px; */
         height: 40px;
         font-size: 24px;
         margin-bottom: 5px;
@@ -175,7 +175,8 @@
 }
 .regis_block2 button{
 
-    width: 413px;height: 71px;
+    /* width: 413px; */
+    height: 71px;
     background-color: #FCE900;
     border: none;
     color: var(--ui-black, #000);
@@ -190,9 +191,11 @@
 @media screen and (max-width:480px){
     .accordion h2{
         margin: 30px auto;
+        /* width: 60%; */
     }
     .regis_block{
-        width: 355px;height: 40px;
+        width: 76%;
+        height: 40px;
         font-size: 24px;
         text-align: center;
         align-items: center;
