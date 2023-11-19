@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+
+.ending {
+    background-color: black;
+    /* width: 1440px; */
+    /* height: 668px; */
+}
+
+header{
+    text-align: start;
+}
+header img {
+    margin: 30px 60px;
+    
+}
+.futer_blocs{
+    display: flex;
+    align-items: baseline;
+    gap: 80px;
+}
+.info {
+    margin-left: 60px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   
+   
+    width: 413px;
+    height: 429px;
+        
+    gap: 30px;
+
+}
+
+.info ol {
+    color: var(--ui-white, #FEFEFE);
+    list-style-type: none;
+    font-family: "Onest";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    /* transform: translateX(-40px); */
+}
+
+.info ul {
+    text-align: start;
+    color: var(--ui-white, #FEFEFE);
+    list-style-type: none;
+    font-family: "Onest";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.kontacts {
+    display: flex;
+
+    height: 112px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+   
+}
+
+.kontact {
+   color: white;
+
+}
+
+.adres {
+    color: white;
+}
+
+.messengers {
+    display: flex;
+    gap: 25px;
+    
+}
+.rabota{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.rabota-text {
+    position: relative;
+    font-family: "Reforma Grotesk Demi";
+    color: var(--ui-white, #FEFEFE);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.medios {
+    position: relative;
+    transform: translateX(-134px);
+    font-family: "Reforma Grotesk Demi";
+    color: var(--ui-white, #FEFEFE);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text p {
+    color: var(--ui-white, #FEFEFE);
+    list-style-type: none;
+    font-family: "Onest";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+.text {
+    width: 345px;
+    height: 328px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transform: translateY(5px);
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+button {
+    border: none;
+    background-color: #fefefe00;
+}
+
+
+.karta {
+    display: flex;
+    width: 413px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    /* position: absolute; */
+    /* transform: translateX(967px); */
+  
+}
+
+.karta p {
+    color: var(--ui-white, #FEFEFE);
+    position: relative;
+    /* transform: translateX(-167px); */
+    font-family: "Reforma Grotesk Demi";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background: var(--ui-grey-grey-1, #2B2A29);
+    position: relative;
+    transform: translateY(52px);
+}
+
+.protection {
+    color: var(--ui-grey-grey-2, #808285);
+
+    font-family: "Onest";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    /* transform: translateX(55px); */
+    margin-top: 72px;
+}
+
+
+
+
+@media(max-width:480px){
+    .futer_blocs{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .protection{
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Стили для маленьких экранов (максимальная ширина 480px) */
+/* @media screen and (max-width: 480px) {
+    .ending {
+        width: 394px;
+        height: 1472px;
+    }
+
+    header img {
+        margin: 20px;
+        width: 128px;
+        height: 26px;
+    }
+
+    .text {
+        margin-left: 25px;
+        transform: translateY(-420px);
+        position: relative;
+        width: 345px;
+        height: 328px;
+        display: inline-flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .info {
+        margin-left: -35px;
+        transform: translateY(340px);
+        position: relative;
+        display: inline-flex;
+        height: 429px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .karta p {
+        margin-right: 145px;
+    }
+
+    .karta {
+        margin-left: -9px;
+        position: relative;
+        transform: translateY(480px);
+    }
+
+    .karta img {
+        width: 370px;
+        height: 396px;
+    }
+
+    .line {
+        transform: translateY(555px);
+        position: relative;
+        width: 363px
+    }
+
+    .protection {
+        color: var(--ui-grey-grey-2, #808285);
+        font-family: Onest;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 570px;
+        position: relative;
+        transform: translateX(25px);
+    }
+
+
+} */
